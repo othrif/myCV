@@ -65,8 +65,8 @@
 	%\ifthenelse{\equal{\cvaddress}		{}}{}{ \textcolor{darkgray}{\cvaddress} } \\
 	\vspace{2mm}
 	\ifthenelse{\equal{\cvnumberphone}	{}}{}{ \textnormal{\faMobile} \textcolor{darkgray}{\cvnumberphone} }
-	\ifthenelse{\equal{\cvwebpage}		{}}{}{ \textnormal{\faHome} \href{\cvwebpage}{\textcolor{darkgray}{\cvwebpage}} }
 	\ifthenelse{\equal{\cvmail}			{}}{}{ \textnormal{\textcolor{yt}{\faEnvelopeO}} \href{mailto:\cvmail}{\textcolor{darkgray}{\cvmail}} }
+  \ifthenelse{\equal{\cvwebpage}    {}}{}{ \textnormal{\faHome} \href{\cvwebpage}{\textcolor{darkgray}{\cvwebpage}} }
 	\vspace{2mm}
 	\ifthenelse{\equal{\cvgithub}		{}}{}{ \textnormal{\faGithub} \href{https://www.github.com\cvgithub}{\textcolor{darkgray}{\cvgithub}} }
 	\ifthenelse{\equal{\cvlinkedin}		{}}{}{ \textnormal{\textcolor{linkedin}{\faLinkedin}} \href{https://www.linkedin.com\cvlinkedin}{\textcolor{darkgray}{\cvlinkedin}} }
@@ -94,9 +94,11 @@
 %	 TWEAKING ITEMIZE
 %----------------------------------------------------------------------------------------
 \renewcommand\labelitemi{\faCheckCircleO}
+\renewcommand\labelitemii{$\m@th\bullet$}
 \let\tempone\itemize
 \let\temptwo\enditemize
 \renewenvironment{itemize}{\tempone\addtolength{\itemsep}{-0.5em}\addtolength{\itemindent}{-1.1em}}{\temptwo}
+
 
 %----------------------------------------------------------------------------------------
 %	 JOB/EDUCATION ENTRIES
