@@ -13,10 +13,13 @@
 \usepackage[cm]{fullpage}
 \usepackage{supertabular} 				%for Grades
 \usepackage{titlesec}					%custom \section
-
+%%%%%%%%\usepackage{fontawesome}
 % Line break in table cell
 \newcommand{\specialcell}[2][c]{%
   \begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
+
+\newcommand{\CC}{C\nolinebreak\hspace{-.05em}\raisebox{.4ex}{\tiny\bf +}\nolinebreak\hspace{-.10em}\raisebox{.4ex}{\tiny\bf +}}
+\usepackage{tabularx,makecell}
 
 %Setup hyperref package, and colours for links
 \usepackage{hyperref}
@@ -75,243 +78,397 @@
 \section{Personal Data}
 
 \begin{tabular}{rl}
-    \textsc{Address:}   					& Notkestraße 85, 22607 Hamburg, Germany		\\
-    \textsc{Phone:}     						& +49 157 87 36 9651								\\
-    \textsc{E-mail:}     						& \href{mailto:othmane.rifki@desy.de}{othmane.rifki@desy.de}	\\
+    \textsc{Address:}   					& Bahrenfelder Chaussee 92, 22761 Hamburg, Germany		        \\
+    \textsc{Phone:}     				    & +49 157 87 36 9651								            \\
+    \textsc{E-mail:}     					& \href{mailto:othmane.rifki@cern.ch}{othmane.rifki@cern.ch}	\\
     \textsc{ORCID iD:}						& \href{https://orcid.org/0000-0002-9169-0793}{https://orcid.org/0000-0002-9169-0793}
 \end{tabular}
 
 %Section: Research Interests
+%\vspace{3mm}
+%\section{Research Interests}
+%Exotic and SUSY searches for physics beyond the Standard Model with main focus on direct production of
+%heavy gauge bosons, top squarks, charginos/neutralinos and sleptons.
+%Currently working on the ATLAS experiment at the Large Hadron Collider and based at
+%the European Organization for Nuclear Research, Geneva, Switzerland.
+
+%Section: Positions Held
 \vspace{3mm}
-\section{Research Interests}
-Exotic and SUSY searches for physics beyond the Standard Model with main focus on direct production of
-heavy gauge bosons, top squarks, charginos/neutralinos and sleptons.
-Currently working on the ATLAS experiment at the Large Hadron Collider and based at
-the European Organization for Nuclear Research, Geneva, Switzerland.
+\section{Current Employment}
+\begin{tabular}{r|p{15.5cm}}
+\textsc{2017--\phantom{0000}}		&	Postdoctoral Research Fellow 	\\
+							&		{\bf DESY}, Hamburg, Germany  						\\
+%\multicolumn{2}{c}{} \\
+%\textsc{2015--2017}				&	Research Assistant  			\\
+%							&		{\bf University of Oklahoma}, Norman, OK, USA {\it and} 						\\
+%							& 		{\bf CERN}, Switzerland 		\\
+%\multicolumn{2}{c}{} \\
+%\textsc{2014--2015}				&	Graduate Research Fellow  			\\
+%							&		{\bf University of Oklahoma}, Norman, OK, USA {\it and} 						\\
+%							&		{\bf Argonne National Laboratory}, Lemont, IL, USA 					\\
+%\multicolumn{2}{c}{} \\
+%\textsc{2012--2014}				&		Teaching Assistant, Department of Physics and Astronomy 			\\
+%							&		{\bf University of Oklahoma}, Norman, OK, USA 						\\
+\end{tabular}
+
 
 %Section: Education
 \vspace{3mm}
 \section{Education}
 
 \begin{tabular}{r | p{15.5cm}}
-\textsc{2012--2017}			&  Ph.D. in \textsc{Physics} - \textbf{University of Oklahoma}, Norman, OK \\
-							& Supervisor\phantom{Ttle} : Prof. Brad Abbott \\
-							& Thesis Title: {\it``Search for supersymmetry in final states with two same-sign or three leptons and jets with the ATLAS detector at the LHC''}, \href{https://cds.cern.ch/record/2289509/files/CERN-THESIS-2017-181.pdf}{CERN-THESIS-2017-181} \\ %https://arxiv.org/pdf/1712.08677.pdf
+\textsc{2012--2017}			&  Ph.D. in \textsc{Physics} - \textbf{University of Oklahoma}, Norman, OK, USA \\
+							& Supervisor: Brad Abbott \\ % \phantom{Ttle}
+							& Thesis: {\it``Search for supersymmetry in final states with two same-sign or three leptons and jets with the ATLAS detector at the LHC''}, \href{https://cds.cern.ch/record/2289509/files/CERN-THESIS-2017-181.pdf}{CERN-THESIS-2017-181} \\
+							%https://arxiv.org/pdf/1712.08677.pdf
 \multicolumn{2}{c}{} \\
-\textsc{2009--2012} 	    & B.Sc. in \textsc{Physics}, \textbf{Drexel University}, Philadelphia, PA	\\
-							& Supervisors : Prof. Gordon Richards, Mitch Newcomer					\\
-							& Title Title: \phantom{rvsor} : \it{``Precision Characterization of Prototype Electronics for Readout of the 3.2 %Gigapixels Camera for LSST}''}, \href{https://cds.cern.ch/record/2289509/files/CERN-THESIS-2017-181.pdf}{CERN-THESIS-2017-181} 	\\
-							& \normalsize \textsc{High Honor Student}										\\
+\textsc{2009--2012} 	    & B.Sc. in \textsc{Physics}, with Honors - \textbf{Drexel University}, Philadelphia, PA, USA	\\
+							& Supervisors: Gordon Richards, Mitch Newcomer					\\
+							& Thesis: \it{``\href{https://www.nhn.ou.edu/~othrif/LSST_Camera_Electronics.pdf}{Precision characterization of prototype electronics for readout of the 3.2 gigapixels Camera for the LSST}''} \\
 \end{tabular}
 
-%Section: Positions Held
+
+%Section: Responsability Roles
 \vspace{3mm}
-\section{Positions Held}
-\begin{tabular}{r|p{15.5cm}}
-\textsc{2017--\phantom{0000}}		&		Assistant Project Scientist, Department of Physics and Astronomy, 	\\
-							&		{\bf University of California, Irvine}, CA, USA  						\\
-\multicolumn{2}{c}{} \\
-\textsc{2012--2017}		&		Post-Doctoral Research Scholar, Department of Physics and Astronomy, 	\\
-							&		{\bf University of California, Irvine}, CA, USA  						\\
-\multicolumn{2}{c}{} \\
-\textsc{2008--2012}				&		Research Assistant, Department of Physics and Astronomy, 			\\
-							&		{\bf Iowa State University}, Ames, IA, USA and 						\\
-							& 		{\bf Brookhaven National Laboratory}, Upton, NY, USA (since 2009)		\\
-\multicolumn{2}{c}{} \\
-\textsc{2006--2008}				&		Teaching Assistant, Department of Physics and Astronomy, 			\\
-							&		{\bf Iowa State University}, Ames, IA, USA 						\\
+\section{Leadership Roles}
+\begin{tabular}{r | p{12cm}}
+\multicolumn{1}{r|}{Analysis Contact}			& ATLAS search for invisible VBF Higgs decays  \hfill (2018--\phantom{0000}) \\
+\multicolumn{1}{r|}{Editorial Board Member}		& ATLAS search for electroweak SUSY production (3 publications)  \hfill (2017--2019)\\
+\multicolumn{1}{r|}{JINST referee}		        & Invited referee in two publications \hfill (2018--2019)	\\
+\multicolumn{1}{r|}{On-call expert}              & ATLAS readout system and RoI builder operational support	\hfill (2015--2017)					\\
+\multicolumn{1}{r|}{ATLAS shifter}			     & Shift leader, trigger, and run control shifts	\hfill (2015--2018)					\\
 \end{tabular}
+
+
+%Section: Research experience - Current
+\vspace{3mm}
+
+\section{Current Activities in ATLAS}
+\begin{tabularx}{\textwidth}{>{\centering\arraybackslash}X p{.8\textwidth} }
+{\bf Upgrade} &   \textbf{ATLAS upgrade for High-Luminosity LHC: Inner Strip tracking detector} \\
+	& Built an automated robotic assembly system to pick and place modules using an advanced camera with magnifying optics running vision algorithms, custom-designed vacuum pickup tools, and a high precision glue dispensing system to achieve a module placement accuracy of less than 50 microns. Loading demonstration available here: \href{https://youtu.be/rU1wHZcM4Ng}{https://youtu.be/rU1wHZcM4Ng} \\
+			& \begin{itemize}
+			   \item Built the module loading station at DESY in close collaboration with TRIUMF
+			   \item Corresponded with industry vendors to obtain the needed equipment with the desired specifications
+			   \item Managed the purchases of all the necessary equipment for the project (250k Euros)
+			   \item Oversaw the production of custom tools at the DESY workshop and by industrial manufacturers, and the assembly of the loading station in the DESY clean room
+			   \item Harmonized the loading procedure and software with the other module loading sites (TRIUMF, IFIC, Freiburg)
+			 \end{itemize} \\[-1.5ex]
+
+{\bf Analysis} &  \textbf{Search for invisible Higgs boson decays in Vector Boson Fusion} \\
+			   & Led the most sensitive channel to search for direct decays of the Higgs boson to invisible particles as Analysis Contact \\
+			   & \begin{itemize}
+			   \item Developed the full analysis software framework used by the analysis team and generated the Monte Carlo simulation for the signal and background processes
+			   \item Established an Analysis Contact Expert (ACE) collaboration with three theorists to improve filtering algorithms in Sherpa to simulate more $V$ + jets processes with less CPU. Uncertainties from the limited amount of simulation was the leading uncertainty in the previous publication
+			\end{itemize}
+\end{tabularx}
+\begin{tabularx}{\textwidth}{>{\centering\arraybackslash}X p{.8\textwidth} }
+			& \begin{itemize}
+				\item Developing a theoretical model to extrapolate between electroweak bosons to more accurately constrain the main analysis background in collaboration with the ACEs
+				\item Optimized the event selection to increase the Higgs boson signal acceptance by 50\% on the same dataset compared to the previous publication
+				\item Refined the lepton selection to reduce the background in the signal region by 31\% and increase acceptance of background processes in the control region by 34\%
+				\item Improved the event categorization to improve sensitivity to the Higgs boson signal
+			  \end{itemize}\\[-1.5ex]
+\end{tabularx}
+
+
+%Section: Research experience - Current
+\vspace{3mm}
+\section{Previous Activities in ATLAS}
+\begin{tabularx}{\textwidth}{>{\centering\arraybackslash}X p{.8\textwidth} }
+  {\sl 2015--2017} & {\bf Search for supersymmetry (SUSY) at 13 TeV with the ATLAS detector} \\
+  & Performed a search for SUSY with multiple leptons and jets which benefits from a low
+  standard model (SM) background allowing the physics analysis to reach the best sensitivity in scenarios with small
+  mass differences between SUSY particles.\\[-1.5ex]
+  & \begin{itemize}
+  \item Identified uncovered regions of the SUSY parameter space and designed search regions to target them expanding the
+    potential discovery reach of ATLAS
+  \item Pioneered a search with a novel experimental signature of three leptons of the same electric charge to target a model
+    proposed by ANL theorists Carlos Waigner and Ian Low
+  \item Developed new data-driven analysis techniques to measure and validate the analysis backgrounds, in particular mis-identified
+    leptons from experimental effects
+  \item Developed and maintained the analysis software framework (\CC~and Python) used by the analysis team and generated the Monte Carlo
+    simulation for the signal and background processes
+  \end{itemize}\\[-1.5ex]
+\end{tabularx}
+\begin{tabularx}{\textwidth}{>{\centering\arraybackslash}X p{.8\textwidth} }
+ {\sl 2016--2017} & {\bf Experimental backgrounds review group in SUSY} \\
+  & Led a review team to evaluate the analysis techniques used to estimate backgrounds from mis-identified particles
+  (leptons, photons, taus, and $b$-jets) due to instrumental effects in all ATLAS SUSY analyses.\\
+  & \begin{itemize}
+  \item Harmonized the procedures employed in estimating instrumental backgrounds across SUSY analyses
+  \item Provided recommendations and software tools to measure these backgrounds
+  \item Expanded the usage of a new data-driven method I developed for estimating mis-identified lepton background to other ATLAS analyses
+  \end{itemize}\\
+\end{tabularx}
+\begin{tabularx}{\textwidth}{>{\centering\arraybackslash}X p{.8\textwidth} }
+  {\sl 2014--2016} & {\bf Evolution of the Region of Interest Builder of the ATLAS detector}  \\
+  & Migrated the functionality of the multi-card custom electronics
+  Region of Interest Builder (RoIB), which seeds the retrieval of every event recorded by ATLAS to a single PCI-Express card
+  hosted in a commodity computing node (PC RoIB). This evolution was undertaken to increase the system flexibility
+  and reduce the operational overload associated with custom electronics. \\
+  & \begin{itemize}
+  \item Developed a multi-threaded \CC~ library that collects the ATLAS regions of interest (RoIs) identified by the
+    first level trigger and forwards them at 100 kHz rate to a computing farm
+  \item Used modern Intel resource manager tools to efficiently balance the sharing of memory usage between hardware resources
+  \item Tested the RoIB performance system in a test setup at ANL and CERN during the R\&D phase of the project
+  \item Installed the PC RoIB in the ATLAS detector and started taking data since early 2016
+  \item Implemented diagnostic tools to monitor the RoIB system information in real time
+  \end{itemize}\\
+\end{tabularx}
+\begin{tabularx}{\textwidth}{>{\centering\arraybackslash}X p{.8\textwidth} }
+ {\sl 2014--2015} & {\bf First observation of the $t\bar{t}W$ and $t\bar{t}Z$ processes with the ATLAS detector} \\
+%  Argonne National Laboratory
+  & Performed the first measurement of the $t\bar{t}W$ and $t\bar{t}Z$ production cross-sections at 8 TeV, and played the key role in
+  improving the sensitivity of the $t\bar{t}W$ cross section from 3$\sigma$ to 5$\sigma$ and in reducing the uncertainty on
+  the measurement by 40\%.\\
+  & \begin{itemize}
+  \item Developed a new technique that exploits correlations between the event kinematics (missing transverse momentum and
+    the multiplicity of jets and $b$-jets) to separate signal from background
+  \item Quantified the SM backgrounds and calculated the experimental backgrounds of the analysis
+  \item Evaluated the signal modeling uncertainties affecting the precision of the measurement
+  \end{itemize}\\
+\end{tabularx}
+\begin{tabularx}{\textwidth}{>{\centering\arraybackslash}X p{.8\textwidth} }
+  {\sl 2014--2015} & {\bf Photon production cross section measurement with the ATLAS detector}  \\
+  & Observed photons above 1 TeV for the first time and provided the measurement data to test the precision of QCD modelling and reduce the
+  Parton Distribution Function (PDF) uncertainties used in every analysis at the LHC. \\
+  & \begin{itemize}
+  \item Calculated the computing intensive higher order corrections to the photon production rate using Mira at ALCF with ANL
+    physicist Sergei Chekanov allowing the generation of high statistics Monte Carlo simulation with a speed up factor of 1000
+  \item Achieved an agreement between prediction and data over ten orders of magnitude
+  \end{itemize}\\
+\end{tabularx}
+
+%Section: Research experience - Current
+\vspace{3mm}
+\section{Previous research experience}
+\begin{tabularx}{\textwidth}{>{\centering\arraybackslash}X p{.8\textwidth} }
+
+{\sl 2011--2012} & {\bf Precision characterization of the LSST camera readout electronics}  \\
+
+  & Participated in the assembly and testing of the electronics that read out the three billion pixels of the Large Synoptic
+  Survey Telescope (LSST) camera at the University of Pennsylvania. \\
+
+  & \begin{itemize}
+  \item Assembled hardware and tested software and firmware for readout tests of the silicon pixels of the LSST camera
+  \item Developed analysis tools for precision characterization of the readout electronics in terms of gain, noise, and channel crosstalk
+  \end{itemize} \\
+
+  {\sl 2010--2011} &{\bf Assembly and characterization of the Double Chooz PMTs at Drexel University} \\
+  & \begin{itemize}
+  \item Set up a data acquisition system to read out Photomultiplier tubes (PMTs)
+  \item Characterized the PMTs by calibrating them and measuring their gains, dark rates, and afterpulsing rates
+  \item Built and tested voltage dividers for the PMTs
+  \end{itemize}\\
+
+\end{tabularx}
 
 %Section: Teaching experience
 \vspace{3mm}
-\section{Teaching Experience}
+\section{Teaching and Mentoring Experience}
 
-\begin{tabular}{r | p{14.05cm}}
-\multicolumn{1}{r|}{Teaching Assistant}		& Phys. 111 - General Physics \hfill ( 1 semester\phantom{s})				\\
-\multicolumn{1}{r|}{}						& Phys. 221 - Introduction to Classical Physics I  \hfill ( 2 semesters) 		\\
-\multicolumn{1}{r|}{}						& Phys. 321 - Introduction to Modern Physics I \hfill ( 1 semester\phantom{s}) 	\\
-\multicolumn{1}{r|}{}						& Phys. 564 - Advanced Classical Mechanics \hfill ( 1 semester\phantom{s})	\\
-\multicolumn{1}{r|}{}						& Phys. 571 - Electricity and Magnetism I \hfill ( 2 semesters) 				\\
-\end{tabular}
-
-%Section: Research and Teaching experience
-\vspace{3mm}
-\section{Research Experience}
-
-\begin{tabular}{r | p{12cm}}
-\multicolumn{1}{r|}{Convener}					& HEP Software Foundation (HSF) Software Tools Working Group \hfill (2018--\phantom{0000})				\\
-\multicolumn{1}{r|}{Software Developer/ Convener}	& ATLAS Software Performance Optimization Team (SPOT) \hfill (2017--\phantom{0000})				\\
-\multicolumn{1}{r|}{Editorial Board Member}		& ATLAS compressed SUSY EWK scenarios search \hfill (2016--\phantom{0000})				\\
-\multicolumn{1}{r|}{Analysis Contact}				& ATLAS Stop2L SUSY search (Moriond/LHCP 2017)  \hfill (2016--2017)					\\
-\multicolumn{1}{r|}{Editorial Board Member}		& ATLAS 2$\tau$ SUSY EWK search \hfill (2016--2018)				\\
-\multicolumn{1}{r|}{Conference Note Editor}		& ATLAS Stop2L SUSY search (ICHEP 2016) \hfill (2016)					\\
-\multicolumn{1}{r|}{Paper Editor}				& ATLAS legacy of Run-I SUSY EWK searches \hfill (2015) 		\\
-\multicolumn{1}{r|}{Subgroup Convener}			& ATLAS SUSY EWK searches \hfill (2014--2015)				\\
-\multicolumn{1}{r|}{Analysis Contact/ Paper Editor}	& ATLAS 2L SUSY EWK search \hfill (2013--2014)				\\
-\multicolumn{1}{r|}{Paper Editor}				& ATLAS $W^{\prime}\rightarrow\ell\nu$ $\sqrt{s} = 8\ \mathrm{TeV}$  search \hfill (2014)		\\
-\multicolumn{1}{r|}{Analysis Contact/ Paper Editor}	& ATLAS $W^{\prime}\rightarrow\ell\nu$ $\sqrt{s} = 7\ \mathrm{TeV}$ search \hfill (2011)		\\
-\multicolumn{1}{r|}{Software Developer}			& NSW sTGC trigger simulation \hfill (2015--2017)	\\
-\multicolumn{1}{r|}{Software Developer}			& $E_{\mathrm{T}}^{\mathrm{miss}}$ Run-II EDM and reconstruction \hfill (2014--2017)	\\
-\multicolumn{1}{r|}{Trigger Monitoring Expert}		& Author of {\it OnlineRatesChecker} package \hfill (2011--2012)	\\
-\multicolumn{1}{r|}{DAQ/HLT Shifter}				& Online DAQ/HLT shifts	\hfill (2010--2011)					\\
+\begin{tabular}{rp{15.5cm}}
+\textsc{2018--\phantom{0000}} & {\bf Mentorship} of several Ph.D. students in the search for invisible VBF Higgs decays \\
+\textsc{2019--\phantom{0000}} & {\bf Direct supervision} of two Ph.D. students (Pablo Rivadeneira, Alessia Renardi) \\
+\textsc{2018--2019}           & {\bf Direct supervision} of Master's student (Janik von Ahnen) and summer student (Maren Stratmann)   \\
+\textsc{2017--2018}           & {\bf Direct supervision} of Ph.D. student (Vincent Kitali)   \\
+\textsc{2016}                 & {\bf Supervision} of two graduate students (Rishabh Jain and Joseph Lambert) in physics analysis  \\
+\textsc{2015}                 & {\bf Support} of an undergraduate student (Taira Lamphere) in final year research project at OU \\
+\textsc{2013}          & {\bf Course instructor} of electricity and magnetism for engineering students (1 semester)\\
+\textsc{2012--2014}		      & {\bf Teaching Assistant} of general physics for engineers (4 semesters)\\
 \end{tabular}
 
 % Publications
 \vspace{3mm}
-\section{Publications}
-
+\section{Journal Publications}
+{ATLAS author since June 2015. Listed below are the publications to which I have significantly contributed}
 \begin{itemize}
+%	\item ATLAS Collaboration,
+%	``Combination of searches for invisible Higgs boson decays with the ATLAS experiment'',
+%	\href{https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.122.231801}{Phys.\ Rev.\ Lett. {\bf 122}, 231801 (2019)}
 	\item ATLAS Collaboration,
-	``Search for electroweak production of supersymmetric particles in final states with two or three leptons at $\sqrt{s}=13\ \mathrm{TeV}$ with the ATLAS detector'',
-	Eur.\ Phys.\ J.\ {\bf C78} (2018) 995,
-	\href{https://arxiv.org/abs/1803.02762}{arxiv:1803.02762 [hep-ex]}
-	\item ATLAS Collaboration,
-	``Search for direct top squark pair production in final states with two leptons in $\sqrt{s}=13\ \mathrm{TeV}$ $pp$ collisions with the ATLAS detector'',
-	Eur.\ Phys.\ J.\ {\bf C77} (2017) 898,
-	\href{https://arxiv.org/abs/1708.03247}{arxiv:1708.03247 [hep-ex]}
+	``Search for invisible Higgs boson decays in vector boson fusion at $\sqrt{s}=13\ \mathrm{TeV}$ with the ATLAS detector'',
+	\href{https://www.sciencedirect.com/science/article/pii/S0370269319302564}{Phys.\ Lett.\ {\bf B793} (2019) 499}
 	\item ATLAS Collaboration,
 	``Search for supersymmetry in final states with two same-sign or three leptons and jets using $36\ \mathrm{fb}^{-1}$ of $\sqrt{s}=13\ \mathrm{TeV}$ $pp$ collision data with the ATLAS detector'',
-	J.\ High\ Energy\ Phys.\ {\bf 09} (2017) 084,
-	\href{https://arxiv.org/abs/1706.03731}{arxiv:1706.03731 [hep-ex]}
+	\href{https://link.springer.com/article/10.1007/JHEP09(2017)084}{J.\ High\ Energy\ Phys.\ {\bf 09} (2017) 084}
 	\item ATLAS Collaboration,
-	``Dark matter interpretations of ATLAS searches for the electroweak production of supersymmetric particles in $\sqrt{s} = 8\ \mathrm{TeV}$ proton-proton collisions'',
-	J.\ High\ Energy\ Phys.\ {\bf 09} (2016) 175,
-	\href{http://arxiv.org/abs/1608.00872}{arxiv:1608.00872 [hep-ex]}
+	``Search for supersymmetry at $\sqrt{s}=13\ \mathrm{TeV}$ in final states with jets and two same-sign leptons or three leptons with the ATLAS detector'',
+	\href{https://link.springer.com/article/10.1140/epjc/s10052-016-4095-8}{Eur.\ Phys.\ J.\ {\bf C76} (2016) 259}
+	\item O. Rifki et al.,
+	``The evolution of the region of interest builder for the ATLAS experiment at CERN'',
+	\href{https://iopscience.iop.org/article/10.1088/1748-0221/11/02/C02080}{JINST\ 11 C02080 (2016) }
 	\item ATLAS Collaboration,
-	``Search for the electroweak production of supersymmetric particles in $\sqrt{s} = 8\ \mathrm{TeV}$ $pp$ collisions with the ATLAS detector'',
-	Phys.\ Rev.\ {\bf D93} (2016) 052002,
-	\href{http://arxiv.org/abs/1509.07152}{arxiv:1509.07152 [hep-ex]}
-	\item J. Abdallah {\it et al.},
-	``Simplified Models for Dark Matter Searches at the LHC'',
-	Phys.\ Dark\ Univ.\ {\bf 9-10} (2015) 8-23,
-	\href{http://arxiv.org/abs/1506.03116}{arxiv:1506.03116 [hep-ph]}
+	``Measurement of the inclusive isolated prompt photon cross section in $pp$ collisions at $\sqrt{s}=8\ \mathrm{TeV}$ with the ATLAS detector'',
+	\href{https://link.springer.com/article/10.1007/JHEP08(2016)005}{J.\ High\ Energy\ Phys.\ {\bf 06} (2016) 005 }
 	\item ATLAS Collaboration,
-	``Search for direct pair production of a chargino and a neutralino decaying to the 125 GeV Higgs boson in $\sqrt{s} = 8\ \mathrm{TeV}$ $pp$ collisions with the ATLAS detector'',
-	Eur.\ Phys.\ J.\ {\bf C75} (2015) 208,
-	\href{http://arxiv.org/abs/1501.07110}{arxiv:1501.07110 [hep-ex]}
-	\item ATLAS Collaboration,
-	``Search for new particles in events with one lepton and missing transverse momentum in $pp$ collisions at $\sqrt{s} = 8\ \mathrm{TeV}$ with the ATLAS detector'',
-	J.\ High\ Energy\ Phys.\ {\bf 09} (2014) 037,
-	\href{http://arxiv.org/abs/1407.7494}{arxiv:1407.7494 [hep-ex]}
-	\item ATLAS Collaboration,
-	``Search for the direct production of charginos, neutralinos and staus in final states with at least two hadronically decaying taus and missing transverse momentum in $pp$ collisions at $\sqrt{s} = 8\ \mathrm{TeV}$ with the ATLAS detector'',
-	J.\ High\ Energy\ Phys.\ {\bf 10} (2014) 096,
-	\href{http://arxiv.org/abs/1407.0350}{arxiv:1407.0350 [hep-ex]}
-	\item ATLAS Collaboration,
-	``Search for direct production of charginos, neutralinos and sleptons in final states with two leptons and missing transverse momentum in $pp$ collisions at
-	$\sqrt{s} = 8\ \mathrm{TeV}$ with the ATLAS detector'',
-	J.\ High\ Energy\ Phys.\ {\bf 05} (2014) 071,
-	\href{http://arxiv.org/abs/1403.5294}{arxiv:1403.5294 [hep-ex]}
-	\item ATLAS Collaboration,
-	``Search for direct production of charginos and neutralinos in events with three leptons and missing transverse momentum in $\sqrt{s} = 8\ \mathrm{TeV}$ $pp$ collisions with the ATLAS detector'',
-	J.\ High\ Energy\ Phys.\ {\bf 04} (2014) 169,
-	\href{http://arxiv.org/abs/1402.7029}{arxiv:1402.7029 [hep-ex]}
-	\item ATLAS Collaboration,
-	``ATLAS search for a heavy gauge boson decaying to a charged lepton and a neutrino in $pp$ collisions at $\sqrt{s} = 7\ \mathrm{TeV}$'',
-	Eur.\ Phys.\ J.\ {\bf C72} (2012) 2241,
-	\href{http://arxiv.org/abs/1209.4446}{arxiv:1209.4446 [hep-ex]}
-	\item ATLAS Collaboration,
-	``Search for direct production of charginos and neutralinos in events with three leptons and missing transverse momentum in $\sqrt{s} = 7\ \mathrm{TeV}$ $pp$ collisions with the ATLAS detector'',
-	Phys.\ Lett.\ {\bf B718} (2013) 841,
-	\href{http://arxiv.org/abs/1208.3144}{arxiv:1208.3144 [hep-ex]}
-	\item ATLAS Collaboration,
-	``Search for direct slepton and gaugino production in final states with two leptons and missing transverse momentum with the ATLAS detector in $pp$ collisions at $\sqrt{s} = 7\ \mathrm{TeV}$'',
-	Phys.\ Lett.\ {\bf B718} (2013) 879, \href{http://arxiv.org/abs/1208.2884}{arxiv:1208.2884 [hep-ex]}
-	\item ATLAS Collaboration,
-	``Search for a heavy gauge boson decaying to a charged lepton and a neutrino in $1\ \mathrm{fb}^{-1}$ of $pp$ collisions at $\sqrt{s} = 7\ \mathrm{TeV}$ using the ATLAS detector'',
-	Phys.\ Lett.\ {\bf B705} (2011) 28,
-	\href{http://arxiv.org/abs/arXiv:1108.1316}{arxiv:1108.1316 [hep-ex]}
-	\item ATLAS Collaboration,
-	``Search for high-mass states with lepton plus missing transverse momentum in proton-proton collisions at $\sqrt{s} = 7\ \mathrm{TeV}$ with the ATLAS detector'',
-	Phys.\ Lett.\ {\bf B701} (2011) 50,
-	\href{http://arxiv.org/abs/1103.1391}{arxiv:1103.1391 [hep-ex]}
-	\item S.K. Gupta, A.S. Mete and G. Valencia,
-	``CP violating anomalous top quark couplings at the LHC'',
-	Phys.\ Rev.\ {\bf D80} (2009) 034013,
-	\href{http://arxiv.org/abs/0905.1074}{arxiv:0905.1074 [hep-ph]}
+	``Measurement of the $t\bar{t}W$ and $t\bar{t}Z$ production cross sections in $pp$ collisions at $\sqrt{s} = 8$ TeV with the ATLAS detector'',
+	\href{https://link.springer.com/article/10.1007/JHEP08(2016)005}{J.\ High\ Energy\ Phys.\ {\bf 11} (2015) 172 }
+
 \end{itemize}
 
-%\newpage
 
 % Conference Notes
 \vspace{3mm}
 \section{Conference Notes and Proceedings}
 
 \begin{itemize}
-	\item A. S. Mete,
-	``Searches for Higgsinos and related challenges in ATLAS'',
-	53$^{\mathrm{rd}}$ Rencontres de Moriond on Electroweak Interactions and Unified Theories,
-	\href{https://cds.cern.ch/record/1478973}{ATL-PHYS-PROC-2018-027 (2018)}
 	\item ATLAS Collaboration,
-	``Search for electroweak production of supersymmetric particles in the two and three lepton final state at $\sqrt{s}=13\ \mathrm{TeV}$ with the ATLAS detector'',
-	\href{https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2017-039/}{ATLAS-CONF-2017-039 (2017)}
+	``Search for invisible Higgs boson decays with vector boson fusion signatures with the ATLAS detector using an integrated luminosity of  $139\ \mathrm{fb}^{-1}$'',
+	\href{https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2020-008/}{ATLAS-CONF-2020-008 (2020)}
+	\item O. Rifki,
+	``The ATLAS dataflow system in Run-2: Design and Performance'',
+	38$^{\mathrm{th}}$ International Conference of High Energy Physics,
+	\href{https://pos.sissa.it/282/240/pdf}{PoS ICHEP2016 (2017) 240}
+	\item O. Rifki,
+	``Search for supersymmetry at $\sqrt{s} = 13$ TeV in final states with two same-sign leptons or at least three leptons and jets using $pp$ collisions recorded with the ATLAS detector'',
+	38$^{\mathrm{th}}$ International Conference of High Energy Physics,
+	\href{https://pos.sissa.it/282/1126/pdf}{PoS ICHEP2016 (2017) 1126}
 	\item ATLAS Collaboration,
-	``Search for electroweak production of charginos and neutralinos in multilepton final states at $\sqrt{s}=13\ \mathrm{TeV}$ with the ATLAS detector'',
-	\href{https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2016-096/}{ATLAS-CONF-2016-096 (2016)}
-	\item ATLAS Collaboration,
-	``Search for direct top squark pair production and Dark Matter production in final states with two leptons in $\sqrt{s}=13\ \mathrm{TeV}$ $pp$ collisions using $13\ \mathrm{fb}^{-1}$ of ATLAS data'',
-	\href{https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2016-076/}{ATLAS-CONF-2016-076 (2016)}
-	\item ATLAS Collaboration,
-	``Search for supersymmetry with two same-sign leptons or three leptons using $13.2\ \mathrm{fb}^{-1}$ of $\sqrt{s}=13\ \mathrm{TeV}$ $pp$ collision data collected by the ATLAS detector'',
+	``Search for supersymmetry with two same-sign leptons or three leptons using $13.2\ \mathrm{fb}^{-1}$ of $\sqrt{s} = 13$ TeV $pp$ collision data collected by the ATLAS detector'',
 	\href{https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2016-037/}{ATLAS-CONF-2016-037 (2016)}
-	\item ATLAS Collaboration,
-	``Search for direct top squark pair production in final states with two leptons in $\sqrt{s}=13\ \mathrm{TeV}$ $pp$ collisions using $3.2\ \mathrm{fb}^{-1}$ of ATLAS data'',
-	\href{https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2016-009/}{ATLAS-CONF-2016-009 (2016)}
-	\item ATLAS Collaboration,
-	``Search for high-mass states with one lepton plus missing transverse momentum in $pp$ collisions at $\sqrt{s}= 8\ \mathrm{TeV}$ with the ATLAS detector'',
-	\href{https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2014-017/}{ATLAS-CONF-2014-017 (2014)}
-	\item ATLAS Collaboration,
-	``Search for direct-slepton and direct-chargino production in final states with two opposite-sign leptons, missing transverse momentum
-	and no jets in $20\ \mathrm{fb}^{-1}$ of $pp$ collisions at $\sqrt{s} = 8\ \mathrm{TeV}$ with the ATLAS detector'',
-	\href{https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2013-049/}{ATLAS-CONF-2013-049 (2013)}
-	\item A. S. Mete,
-	``New Physics searches with ATLAS'',
-	EPJ\ Web\ Conf.\ {\bf 70} (2014) 00050,
-	\href{https://cds.cern.ch/record/1478973}{ATL-PHYS-PROC-2012-201 (2012)}
-	\item ATLAS Collaboration,
-	``Search for high-mass states with one muon plus missing transverse momentum in proton-proton collisions at $\sqrt{s} = 7\ \mathrm{TeV}$ with the ATLAS detector",
-	\href{https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2011-082/}{ATLAS-CONF-2011-082 (2011)}
+	\item O. Rifki,
+	``ATLAS searches for squarks and gluinos using leptons or multiple $b$-jets with $3.2\ \mathrm{fb}^{-1}$ of $pp$ collisions at $\sqrt{s} = 13$ TeV'',
+	4$^{\mathrm{th}}$ Large Hadron Collider Physics Conference,
+	\href{https://pos.sissa.it/276/236/pdf}{PoS LHCP2016 (2016) 236}
 \end{itemize}
 
 %Section: Talks and Posters
 \vspace{3mm}
-%\section{Talks and Posters}
-\section{Talks}
+\section{Presentations} % Public
+%\section{Talks}
 
-\begin{itemize}
-	\item ``Higgsino searches and related challenges in ATLAS'', 53$^{\mathrm{rd}}$ Rencontres de Moriond on Electroweak Interactions and Unified Theories (3/2018), {\bf (On behalf of the ATLAS Collaboration)}
-	\item ``Searches for supersymmetry with electroweak and third generation squark production at ATLAS'', \\ CERN-LHC Seminar (5/2017),
-	{\bf (On behalf of the ATLAS Collaboration)}
-	\item ``SUSY at ATLAS'', (Re)interpreting the results of new physics searches at the LHC (12/2016),
-	\\ {\bf (On behalf of the ATLAS Collaboration)}
-	\item ``SUSY $3^{\mathrm{rd}}$ Generation Review'', ATLAS SUSY Workshop at Sussex (4/2016)
-	\item ``EWK SUSY Searches'', ATLAS Physics Workshop - Ready for Run-2  (11/2014)
-	\item ``Searches for electroweakinos with Higgs in the final state'', ATLAS BSM Higgs Workshop (10/2014)
-	\item  ``Search for dark matter in the mono-lepton channel at the LHC'', Dark Matter @ LHC (9/2014),
-	\\ {\bf (On behalf of the ATLAS and CMS Collaborations)}
-	\item ``ATLAS Direct Electroweak SUSY Search in 2 OS Leptons + Missing Transverse Momentum Final State'',
-	UC Irvine Particle Physics Seminar (3/2014)
-	\item ``ATLAS Direct Electroweak Searches'', Oregon Terascale Workshop (3/2014)
-	\item ``ATLAS Direct Electroweak Searches'', CERN Collider Cross Talk (8/2013)
-	\item ``2 Leptons ($e$/$\mu$/$\tau$) + MET'', ATLAS SUSY Workshop at Nikhef (4/2013)
-	\item ``New Physics searches with ATLAS'', International Conference on New Frontiers in Physics (6/2012),
-	\\ {\bf (On behalf of the ATLAS Collaboration)}
-%	\item ``Search for $W^{\prime}$ and $Z^{\prime}$ with ATLAS'', 105$^{\mathrm{th}}$ LHCC Meeting (3/2011),
-%	{\bf (On behalf of the ATLAS Collaboration - poster)}
-%	\item ``Spin Correlation and W Polarization in $t\bar{t}\rightarrow e\mu$ events'',
-%	ATLAS Physics Workshop of the Americas at New York University (8/2009), {\bf (poster)}
-	\item ``Background studies and spin correlation expectations in $t\bar{t}$ events in the $e/\mu$ decay channel at the LHC'',
-	American Physical Society April Meeting (5/2009), {\bf (On behalf of the ATLAS Collaboration)}
-\end{itemize}
+\begin{tabular}{rp{15.5cm}}
+\textsc{Apr. 2020}		& {\bf Quantum Universe Day} \hfill Hamburg, Germany\\
+						& ``Probing dark matter with the Higgs boson via invisible decays''  	\\
+						% https://indico.desy.de/indico/event/23731/session/0/contribution/1
+\textsc{Apr. 2020}		& {\bf 89$^{\mathrm{th}}$ DESY Physics Research Committee Meeting} \hfill Hamburg, Germany\\
+						& ``ATLAS group highlights at DESY''  	\\
+						% https://indico.desy.de/indico/event/25538/
+\textsc{Sep. 2019}		& {\bf OU Physics Department Colloquium} \hfill Norman, OK, USA\\
+						& ``Higgs as a probe for dark matter''  	\\
+						% https://www.nhn.ou.edu/news-and-events/events/colloquium224
+\textsc{Sep. 2019}		& {\bf OU HEP Seminar} \hfill Norman, OK, USA\\
+						& ``Invisible Higgs decay searches at the LHC''  	\\
+						% LINK
+\textsc{Sep. 2019}		& {\bf ANL HEP Division Seminar} \hfill Lemont, IL, USA \\
+						& ``Searches for invisible Higgs decays with the ATLAS detector''  	\\
+						% https://www.anl.gov/event/searches-for-invisible-higgs-decay-with-the-atlas-detector
+\textsc{Aug. 2020}		& {\bf DESY HEP Experiment-Theory Seminar} \hfill Hamburg, Germany\\
+						& ``Searches for invisible Higgs decays in the VBF channel with ATLAS ''  	\\
+						%https://indico.desy.de/indico/event/23856/
+\textsc{Jul. 2019}		& {\bf Division of Particles \& Fields of the American Physical Society} \hfill Boston, MA, USA \\
+						& ``Searches for invisible Higgs decays with the ATLAS detector''  	\\
+						% https://indico.cern.ch/event/782953/contributions/3455052/
+\textsc{Jul. 2019}		& {\bf European Physical Society Conference on High Energy Physics} \hfill Ghent, Belgium \\
+						& ``Dark matter searches with the ATLAS detector''  	\\
+						% https://indico.cern.ch/event/577856/contributions/3420266/
+						% https://cds.cern.ch/record/2683385
+\textsc{Sep. 2018}		& {\bf DESY LHC Physics Seminar} \hfill Hamburg, Germany\\
+						& ``Invisible Higgs decays in Vector Boson Fusion (VBF)''  	\\
+						%https://indico.desy.de/indico/event/19964/
+\textsc{Jun. 2018}		& {\bf 1$^{\mathrm{st}}$ African Conference on Fundamental Physics and Applications} \hfill Windhoek, Namibia \\
+						& ``Dark Matter Searches at the LHC''  	\\
+						% https://indico.cern.ch/event/667667/contributions/2951743/
+						% https://cds.cern.ch/record/2624806
+\textsc{May 2017}		& {\bf Phenomenology Symposium} \hfill Pittsburgh, PA, USA \\
+						& ``Inclusive searches for squarks and gluinos with the ATLAS detector'' \\
+						% https://indico.cern.ch/event/610112/contributions/2569884/
+						% https://cds.cern.ch/record/2264385
+\textsc{Aug. 2016}		& {\bf ANL HEP division seminar} \hfill Lemont, IL, USA \\
+						& ``Search for supersymmetry at $\sqrt{s} = 13\ \mathrm{TeV}$ in leptonic final states with the ATLAS detector'' \\
+						% REF?
+\textsc{Aug. 2016}		& {\bf 38$^{\mathrm{th}}$ International Conference of High Energy Physics} \hfill Chicago, IL, USA \\
+						& ``The ATLAS Data Flow system in Run-2: Design and Performance'' \\
+						% ATL-DAQ-SLIDE-2016-508
+\textsc{Aug. 2016}		& {\bf 38$^{\mathrm{th}}$ International Conference of High Energy Physics} \hfill Chicago, IL, USA \\
+						& ``Search for supersymmetry at $\sqrt{s} = 13\ \mathrm{TeV}$ in final states with two same-sign leptons or at least three leptons and jets using $pp$ collisions recorded with the ATLAS detector''\\
+						% ATL-PHYS-SLIDE-2016-495
+\textsc{Jun. 2016}		& {\bf 4$^{\mathrm{th}}$ Large Hadron Collider Physics Conference} \hfill Lund, Sweden \\
+						& ``ATLAS searches for squarks and gluinos using leptons or multiple b-jets with $3.2\ \mathrm{fb}^{-1}$ of $pp$ collisions at $\sqrt{s} = 13\ \mathrm{TeV}$''  (Poster)\\
+						% ATL-PHYS-SLIDE-2016-360
+\end{tabular}
+\begin{tabular}{rp{15.5cm}}
+\textsc{Jun. 2016}		& {\bf Low-x Workshop} \hfill Gyongyos, Hungary \\
+						& ``Measurements of exclusive dilepton production at $7\ \mathrm{TeV}$ and $8\ \mathrm{TeV}$ with the ATLAS detector'' \\
+						%  ATL-PHYS-SLIDE-2016-300
+\textsc{Oct. 2015}		& {\bf Topical Workshop on Electronics for Particle Physics (TWEPP)} \hfill Lisbon, Portugal \\
+						& ``The evolution of the Region of Interest Builder in the ATLAS experiment''  (Poster)\\
+						% ATL-DAQ-SLIDE-2015-779
+						% https://indico.cern.ch/event/357738/session/10/contribution/134
+\textsc{Sep. 2015}		& {\bf European School of High Energy Physics} \hfill Bansko, Bulgaria\\
+						& ``Measurement of the associated production cross section of a vector boson (W,Z) and top quark pair in $pp$ collisions at $\sqrt{s} = 8\ \mathrm{TeV}$ with the ATLAS detector'' (Poster)\\
+						%https://espace.cern.ch/ESHEP2015/StudentPosters/Student%20Poster%20List/Forms/AllItems.aspx
+\textsc{Mar. 2015}		& {\bf LHC Experiments Committee (LHCC)} at CERN \hfill Geneva, Switzerland  \\
+						& ``The evolution of the Region of Interest Builder in the ATLAS experiment''  (Poster)\\
+						%ATL-DAQ-SLIDE-2015-028
+						%https://cds.cern.ch/record/1993248
+\textsc{Oct. 2014}		& {\bf ANL Postdoctoral Research and Career Symposium} \hfill Lemont, IL, USA  \\
+						& ``The evolution of the Region of Interest Builder in the ATLAS experiment''  (Poster) \\
+\end{tabular}
+
+%Section: ATLAS Talks
+\vspace{3mm}
+\section{Selected ATLAS Presentations}
+
+\begin{tabular}{rp{15.5cm}}
+\textsc{Feb. 2020}		& {\bf Final Design Review of ITk Strip Local Support Structures} \hfill Geneva, Switzerland\\
+						& ``Module loading for the ITK end-cap petal cores''  	\\
+						% https://indico.cern.ch/event/872236/#12-module-loading-petals
+\textsc{Feb. 2020}		& {\bf ATLAS Collaboration Week} \hfill Geneva, Switzerland\\
+						& ``Searches for dark matter''  	\\
+						% https://indico.cern.ch/event/868980/contributions/3663511/
+\textsc{Apr. 2019}		& {\bf ATLAS Upgrade Week} \hfill Geneva, Switzerland\\
+						& ``Progress on end-cap module loading at DESY and IFIC''  	\\
+						% https://indico.cern.ch/event/806682/#4-progress-on-ec-module-loadin
+\textsc{Nov. 2019}		& {\bf ATLAS Upgrade Week} \hfill Geneva, Switzerland\\
+						& ``Status of end-cap loading at DESY''  	\\
+						% https://indico.cern.ch/event/858220/#1-status-of-endcap-loading-sit
+\textsc{Oct. 2016}		& {\bf ATLAS Collaboration Week} \hfill Geneva, Switzerland\\
+						& ``Performance of the PC based RoIB/HLTSV during 2016 Data-taking''  	\\
+						% https://indico.cern.ch/event/577349/
+\textsc{May 2016}		& {\bf ATLAS TDAQ week} \hfill Geneva, Switzerland\\
+						& ``PC based RoIB: Installation, Operations, and Performance''  	\\
+						 % https://indico.cern.ch/event/464852/
+\end{tabular}
+\begin{tabular}{rp{15.5cm}}
+\textsc{Nov. 2015}		& {\bf High Level Trigger Supervisor and RoI Builder Software Review} \hfill Geneva, Switzerland\\
+						& ``PC based RoIB performance''  	\\
+						 % https://indico.cern.ch/event/461460/#2-roibuilder-software-incl-dis
+\textsc{Jun. 2015}		& {\bf US ATLAS Workshop at UIUC} \hfill Champaign, IL, USA\\
+						& ``Measurement of the inclusive isolated prompt photon cross section in $pp$ collisions at 8 TeV with the ATLAS detector using $20\ \mathrm{fb}^{-1}$''  	\\
+						  %https://indico.cern.ch/event/388328/other-view?view=nicecompact#20150623.detailed
+\textsc{Jun. 2015}		& {\bf US ATLAS Workshop at UIUC} \hfill Champaign, IL, USA\\
+						& ``Simultaneous measurements of the $t\bar{t}W$ and $t\bar{t}Z$ production cross-sections using events with same-sign leptons from $pp$ collisions at 8 TeV using $20\ \mathrm{fb}^{-1}$''  	\\
+						  %https://indico.cern.ch/event/388328/other-view?view=nicecompact#20150623.detailed
+%\textsc{May 2015}		& {\bf Vector-Like Workshop at ANL} \hfill Lemont, IL, USA\\
+%						& ``High $p_{\mathrm{T}}$ $b$-Tagging performance in Run-2 of the LHC''  	\\
+%						  %https://indico.cern.ch/event/388328/other-view?view=nicecompact#20150623.detailed
+\end{tabular}
+
+%Section: Outreach
+\vspace{3mm}
+\section{Outreach Activities}
+
+\begin{tabular}{rp{15.5cm}}
+\textsc{2020}		& {\bf ATLAS website}: physics briefing on ``\href{http://atlas.cern/updates/physics-briefing/probing-dark-matter-higgs-boson}{probing dark matter with the Higgs boson}'' \\
+\textsc{2020}		& {\bf High school student}: hosted and prepared projects for student to learn about particle physics\\
+\textsc{2019}		& {\bf DESY behind the scenes}: organizer of ATLAS exhibition and poster on ``shedding light on the dark universe'' \\
+\textsc{2017}		& {\bf DESY open day}: organizer of ATLAS exhibition and speaker ({\it +20,000 visitors})\\
+\textsc{2016}		& {\bf Outreach during ICHEP}: Hands-on physics lectures in Chicago public libraries \\
+\end{tabular}
 
 %Section: Programming
 \vspace{3mm}
 \section{Programming}
 \begin{tabular}{rl}
-Operating Systems: 	& Mac OS X - Linux SLC5/SLC6/CC7/Ubuntu - Windows XP/Vista/7/8/10 	\\
-Languages: 		& C, C++, Java, Python, Bash scripting, SQL, R, \LaTeX				\\
-Softwares: 		& Pythia, MC@NLO, MadGraph, Jimmy, Herwig, Herwig++, ROOT,		\\
-				& Matlab, Mathematica, ATLAS Athena 							\\
+Operating Systems: 	& Mac OS X, Linux SLC5/SLC6/CC7/Ubuntu, Windows 10 	\\
+Programming: 		& C, C++, Python, Bash scripting, \LaTeX				\\
+Libraries:          & STL, Boost, Intel TBB \\
+Software:           & Matlab, Mathematica, QT, ATLAS Athena, Pythia, MadGraph, Sherpa, ROOT		\\
+Machine Learning: 	& Pandas, Scikit-learn, Numpy, Scipy, Keras, TensorFlow, OpenCV 		\\
+% Grid computing (HTCondor, Rucio)
 \end{tabular}
 
 %Section: Languages
@@ -319,9 +476,35 @@ Softwares: 		& Pythia, MC@NLO, MadGraph, Jimmy, Herwig, Herwig++, ROOT,		\\
 \section{Languages}
 
 \begin{tabular}{rl}
-\textsc{Turkish:}	& Native					\\
-\textsc{English:}	& Full Professional Proficiency	\\
-\textsc{French:}		& Elementary Proficiency		\\
+\textsc{English:}	& Fluent					\\
+\textsc{French:}	& Native	\\
+\textsc{Arabic:}	& Native    \\
+\textsc{German:}	& Elementary Proficiency		\\
 \end{tabular}
 
+%Section: Awards
+\vspace{3mm}
+\section{Awards}
+
+\begin{tabular}{rp{15.5cm}}
+\textsc{2019}		    & {\em Bonus Merit for the contributions to the ATLAS detector upgrade} - DESY\\
+\textsc{2019}		    & {\em Dodge Award to invite PhD graduate back for a department colloquium} - University of Oklahoma\\
+\textsc{2018}		    & {\em Nielsen Prize for excellence in doctoral research} - University of Oklahoma\\
+\textsc{2017}		    & {\em Kalbfleisch Prize for a distinguished graduate student} - University of Oklahoma\\
+\textsc{2015}		    & {\em Graduate Student Senate Grant} - University of Oklahoma\\
+\textsc{2014-2015}		& {\em ATLAS Analysis Support Center Graduate Fellowship} - Argonne National Laboratory\\
+\textsc{2013}		    & {\em Arts and Sciences Merit Scholarship} - University of Oklahoma\\
+\textsc{2011}		    & {\em Larson Physics Scholarship for outstanding student in experimental science} - Drexel University\\
+\textsc{2009-2012}		& {\em Drexel University's Dean Scholarship} - Drexel University\\
+\end{tabular}
+
+
 \end{document}
+
+
+
+% Summer student - Maren Stratmann - https://www.desy.de/f/students/2019/reports/Maren.Stratmann.pdf
+% prizes Homer Dodge prize OU
+% outreach: DESY Open Days https://indico.desy.de/indico/event/23989/call-for-abstracts/18/
+% outreach: https://www.facebook.com/ATLASexperiment/photos/a.239880036049433.51122.235921729778597/1094713383899423/?type=3&theater
+%
