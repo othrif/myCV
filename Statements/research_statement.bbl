@@ -1,0 +1,49 @@
+\begin{thebibliography}{1}
+
+\bibitem{paper-2015-Photon}
+{ATLAS Collaboration}.
+\newblock {Measurement of the inclusive isolated prompt photon cross section in
+  $pp$ collisions at $8$ TeV}.
+\newblock {\em JHEP}, 08:005, 2016.
+
+\bibitem{paper-2015-ttV}
+{ATLAS Collaboration}.
+\newblock {Measurement of the $ t\overline{t}W $ and $ t\overline{t}Z $
+  production cross sections in $pp$ collisions at $8$ TeV}.
+\newblock {\em JHEP}, 11:172, 2015.
+
+\bibitem{conf-2015-SS3L}
+{ATLAS Collaboration}.
+\newblock {Search for supersymmetry at $13$ TeV in final states with jets and
+  two same-sign leptons or three leptons }.
+\newblock (ATLAS-CONF-2015-078), 2015.
+
+\bibitem{paper-2015-SS3L}
+{ATLAS Collaboration}.
+\newblock {Search for supersymmetry at $13$ TeV in final states with jets and
+  two same-sign leptons or three leptons}.
+\newblock {\em Eur. Phys. J. C}, 76(5):1--26, 2016.
+
+\bibitem{conf-2016-SS3L}
+{ATLAS Collaboration}.
+\newblock {Search for supersymmetry with two same-sign leptons or three leptons
+  using 13.2 fb$^{-1}$ of $13$ TeV $pp$ collision data}.
+\newblock (ATLAS-CONF-2016-037), 2016.
+
+\bibitem{stop_3lss}
+P.~Huang et~al.
+\newblock Same-sign dilepton excesses and light top squarks.
+\newblock {\em Phys. Rev. D}, 92:075035, Oct 2015.
+
+\bibitem{natural}
+M.~Papucci et~al.
+\newblock Natural susy endures.
+\newblock {\em Journal of High Energy Physics}, 2012(9):35, 2012.
+
+\bibitem{proc-TWEPP2015-RoIB}
+O.~Rifki et~al.
+\newblock The evolution of the region of interest builder for the atlas
+  experiment at cern.
+\newblock {\em Journal of Instrumentation}, 11(02):C02080, 2016.
+
+\end{thebibliography}
