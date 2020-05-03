@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: research_statement.aux
+The style file: unsrt.bst
+Database file #1: research_statement.bib
+You're missing a field name---line 278 of file research_statement.bib
+ : 
+ : %      note          = "Final version presented to December 2013 LHCC.",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in conf-2015-SS3L
+Warning--there's a number but no volume in conf-2015-SS3L
+Warning--empty journal in conf-2016-SS3L
+Warning--there's a number but no volume in conf-2016-SS3L
+You've used 8 entries,
+            1791 wiz_defined-function locations,
+            495 strings with 4723 characters,
+and the built_in function-call counts, 1441 in all, are:
+= -- 125
+> -- 44
+< -- 0
++ -- 19
+- -- 11
+* -- 93
+:= -- 247
+add.period$ -- 24
+call.type$ -- 8
+change.case$ -- 8
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 70
+empty$ -- 154
+format.name$ -- 11
+if$ -- 310
+int.to.chr$ -- 0
+int.to.str$ -- 8
+missing$ -- 8
+newline$ -- 43
+num.names$ -- 8
+pop$ -- 14
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 25
+stack$ -- 0
+substring$ -- 76
+swap$ -- 6
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 15
+width$ -- 9
+write$ -- 88
+(There was 1 error message)
