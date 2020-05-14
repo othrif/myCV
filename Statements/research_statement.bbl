@@ -1,49 +1,29 @@
 \begin{thebibliography}{1}
 
-\bibitem{paper-2015-Photon}
+\bibitem{vbfMET_CONF2020}
 {ATLAS Collaboration}.
-\newblock {Measurement of the inclusive isolated prompt photon cross section in
-  $pp$ collisions at $8$ TeV}.
-\newblock {\em JHEP}, 08:005, 2016.
+\newblock {Search for invisible Higgs boson decays with vector boson fusion
+  signatures with the ATLAS detector using an integrated luminosity of 139
+  fb$^{-1}$}.
+\newblock (ATLAS-CONF-2020-008), Mar 2020.
 
-\bibitem{paper-2015-ttV}
-{ATLAS Collaboration}.
-\newblock {Measurement of the $ t\overline{t}W $ and $ t\overline{t}Z $
-  production cross sections in $pp$ collisions at $8$ TeV}.
-\newblock {\em JHEP}, 11:172, 2015.
+\bibitem{VBFPaper2019}
+ATLAS Collaboration.
+\newblock Search for invisible higgs boson decays in vector boson fusion at
+  s=13tev with the atlas detector.
+\newblock {\em Physics Letters B}, 793:499 -- 519, 2019.
 
-\bibitem{conf-2015-SS3L}
-{ATLAS Collaboration}.
-\newblock {Search for supersymmetry at $13$ TeV in final states with jets and
-  two same-sign leptons or three leptons }.
-\newblock (ATLAS-CONF-2015-078), 2015.
+\bibitem{alimena2019searching}
+J.~et~al. Alimena.
+\newblock Searching for long-lived particles beyond the standard model at the
+  large hadron collider.
+\newblock {\em arXiv:1903.04497}, 2019.
 
-\bibitem{paper-2015-SS3L}
-{ATLAS Collaboration}.
-\newblock {Search for supersymmetry at $13$ TeV in final states with jets and
-  two same-sign leptons or three leptons}.
-\newblock {\em Eur. Phys. J. C}, 76(5):1--26, 2016.
-
-\bibitem{conf-2016-SS3L}
-{ATLAS Collaboration}.
-\newblock {Search for supersymmetry with two same-sign leptons or three leptons
-  using 13.2 fb$^{-1}$ of $13$ TeV $pp$ collision data}.
-\newblock (ATLAS-CONF-2016-037), 2016.
-
-\bibitem{stop_3lss}
-P.~Huang et~al.
-\newblock Same-sign dilepton excesses and light top squarks.
-\newblock {\em Phys. Rev. D}, 92:075035, Oct 2015.
-
-\bibitem{natural}
-M.~Papucci et~al.
-\newblock Natural susy endures.
-\newblock {\em Journal of High Energy Physics}, 2012(9):35, 2012.
-
-\bibitem{proc-TWEPP2015-RoIB}
-O.~Rifki et~al.
-\newblock The evolution of the region of interest builder for the atlas
-  experiment at cern.
-\newblock {\em Journal of Instrumentation}, 11(02):C02080, 2016.
+\bibitem{Aaboud_2019}
+ATLAS Collaboration.
+\newblock Search for long-lived neutral particles in pp collisions at
+  ${\sqrt{s}}~=~13~\textrm{TeV}$ that decay into displaced hadronic jets in the
+  atlas calorimeter.
+\newblock {\em The European Physical Journal C}, 79(6), Jun 2019.
 
 \end{thebibliography}
