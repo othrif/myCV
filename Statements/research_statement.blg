@@ -5,45 +5,49 @@ The style file: unsrt.bst
 Database file #1: research_statement.bib
 Warning--empty journal in vbfMET_CONF2020
 Warning--there's a number but no volume in vbfMET_CONF2020
+Warning--empty journal in HLLHC_vertex
+Warning--there's a number but no volume in HLLHC_vertex
+Warning--empty journal in ITKstrips
+Warning--there's a number but no volume in ITKstrips
 You've used 4 entries,
             1791 wiz_defined-function locations,
-            473 strings with 4339 characters,
-and the built_in function-call counts, 655 in all, are:
-= -- 56
+            470 strings with 4208 characters,
+and the built_in function-call counts, 572 in all, are:
+= -- 44
 > -- 16
 < -- 0
 + -- 8
 - -- 4
-* -- 39
-:= -- 117
+* -- 35
+:= -- 105
 add.period$ -- 12
 call.type$ -- 4
 change.case$ -- 4
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 33
-empty$ -- 70
+cite$ -- 10
+duplicate$ -- 32
+empty$ -- 60
 format.name$ -- 4
-if$ -- 139
+if$ -- 116
 int.to.chr$ -- 0
 int.to.str$ -- 4
 missing$ -- 4
 newline$ -- 23
 num.names$ -- 4
-pop$ -- 9
+pop$ -- 15
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 12
+skip$ -- 9
 stack$ -- 0
-substring$ -- 27
-swap$ -- 3
+substring$ -- 0
+swap$ -- 1
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 5
+warning$ -- 6
+while$ -- 4
 width$ -- 5
-write$ -- 44
-(There were 2 warnings)
+write$ -- 42
+(There were 6 warnings)

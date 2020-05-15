@@ -7,23 +7,21 @@
   fb$^{-1}$}.
 \newblock (ATLAS-CONF-2020-008), Mar 2020.
 
-\bibitem{VBFPaper2019}
-ATLAS Collaboration.
-\newblock Search for invisible higgs boson decays in vector boson fusion at
-  s=13tev with the atlas detector.
-\newblock {\em Physics Letters B}, 793:499 -- 519, 2019.
-
 \bibitem{alimena2019searching}
 J.~et~al. Alimena.
 \newblock Searching for long-lived particles beyond the standard model at the
   large hadron collider.
 \newblock {\em arXiv:1903.04497}, 2019.
 
-\bibitem{Aaboud_2019}
-ATLAS Collaboration.
-\newblock Search for long-lived neutral particles in pp collisions at
-  ${\sqrt{s}}~=~13~\textrm{TeV}$ that decay into displaced hadronic jets in the
-  atlas calorimeter.
-\newblock {\em The European Physical Journal C}, 79(6), Jun 2019.
+\bibitem{HLLHC_vertex}
+{ATLAS Collaboration}.
+\newblock {Sensitivity of the ATLAS experiment to long-lived particles with a
+  displaced vertex and $E^\textrm{miss}_T$ signature at the HL-LHC}.
+\newblock (ATL-PHYS-PUB-2018-033), Nov 2018.
+
+\bibitem{ITKstrips}
+{ATLAS Collaboration}.
+\newblock {Technical Design Report for the ATLAS Inner Tracker Strip Detector}.
+\newblock (ATLAS-TDR-025), Apr 2017.
 
 \end{thebibliography}
