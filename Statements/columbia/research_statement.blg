@@ -3,12 +3,12 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: research_statement.aux
 The style file: unsrt.bst
 Database file #1: research_statement.bib
+Warning--empty journal in ITKstrips
+Warning--there's a number but no volume in ITKstrips
 Warning--empty journal in vbfMET_CONF2020
 Warning--there's a number but no volume in vbfMET_CONF2020
 Warning--empty journal in alimena2019searching
 Warning--there's a number but no volume in alimena2019searching
-Warning--empty journal in ITKstrips
-Warning--there's a number but no volume in ITKstrips
 You've used 3 entries,
             1791 wiz_defined-function locations,
             463 strings with 4007 characters,
