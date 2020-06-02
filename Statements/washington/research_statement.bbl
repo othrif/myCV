@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{ITKstrips}
+{ATLAS Collaboration}.
+\newblock {Technical Design Report for the ATLAS Inner Tracker Strip Detector}.
+\newblock (ATLAS-TDR-025), Apr 2017.
+
+\bibitem{vbfMET_CONF2020}
+{ATLAS Collaboration}.
+\newblock {Search for invisible Higgs boson decays with vector boson fusion
+  signatures with the ATLAS detector using an integrated luminosity of 139
+  fb$^{-1}$}.
+\newblock (ATLAS-CONF-2020-008), Mar 2020.
+
+\bibitem{alimena2019searching}
+{ATLAS Collaboration}.
+\newblock {Searching for long-lived particles beyond the Standard Model at the
+  Large Hadron Collider}.
+\newblock (arXiv:1903.04497), 2019.
+
+\end{thebibliography}
