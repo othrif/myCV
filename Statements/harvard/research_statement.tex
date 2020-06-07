@@ -1,0 +1,88 @@
+\documentclass[a4paper]{article}
+\topmargin-2.0cm
+
+%\usepackage{lineno}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amscd}
+\usepackage{amsfonts}
+\usepackage{graphicx}%
+\usepackage{fancyhdr}
+\usepackage[hyphenbreaks]{breakurl}
+\usepackage[hyphens]{url}
+
+\newcommand{\ttbarV}{\ensuremath{t\bar{t}V}}
+\newcommand{\ttbarW}{\ensuremath{t\bar{t}W}}
+\newcommand{\ttbarZ}{\ensuremath{t\bar{t}Z}}
+\newcommand{\ifb}{\ensuremath{\mathrm{fb}^{-1}}}
+
+\setlength{\topmargin}{-15mm}
+\setlength{\textwidth}{7in}
+\setlength{\oddsidemargin}{-8mm}
+\setlength{\textheight}{9in}
+\setlength{\footskip}{1in}
+
+
+%\title{\vspace{-3cm} Research Statement}
+%\author{Othmane Rifki}%\\
+%University of Oklahoma\\
+%E-mail: \texttt{othmane.rifki@cern.ch}}
+%\date{December 2016}
+
+
+\begin{document}
+
+\thispagestyle{fancy}\lhead{\large{Research Statement}} \rhead{\large{May 27, 2020}}
+\chead{{\large{\bf Othmane Rifki}}} \lfoot{} \rfoot{\bf \thepage} \cfoot{}
+
+%\linenumbers
+\fontsize{11}{14}
+\selectfont
+%\maketitle
+
+My research interests lie in exploring the Standard Model (SM) of particle physics and at the same time addressing questions not answered by the SM, such as the nature of dark matter (DM). Answering these questions requires innovative ideas to meet the ambitious experimental program of the LHC over the next decades by exploring uncharted territories, improving detector capabilities, and using state-of-the-art software technologies. After exploring several beyond the SM (BSM) physics searches with promptly decaying particles in ATLAS, I would now like to extend the discovery potential at the LHC by studying BSM long-lived signatures with the existing ATLAS detector as well as working on the MATHUSLA surface detector for ultra-long lived particles. Given the data and computing challenges of the High-Luminosity LHC (HL-LHC), I am motivated to develop software tools particularly
+geared towards the Exabyte-scale problems we will face, using modern computing architectures and capitalizing on the latest developments in the data science and computer science communities. At the University of Washington, I would like to develop novel techniques to search for new physics using the ATLAS detector, to make important contributions to the design and prototyping of the new MATHUSLA surface detector, and to explore innovative software technologies as part of the IRIS-HEP project, benefiting from and contributing to the expertise of the group in these areas.
+
+\bigskip
+
+So far, my research activities have spanned several areas in physics analysis and detector development. During my PhD, I performed the first searches for supersymmetry with early Run-2 data in leptonic final states after nearly doubling the center-of-mass energy, and migrated the functionality of the Region of Interest Builder (RoIB), the interface that seeds the processing of every event in the high level trigger farm (HLT), from a VMEbus system to a PCIe card running in a commodity-computer. This new system has been the baseline for data taking in ATLAS since the start of 2016. As a DESY fellow, I led a search for DM in invisible Higgs boson decays, setting the strongest existing limit to date, and built a module loading station for the new all-silicon Inner Tracker (ITk) of ATLAS for the High-Luminosity LHC (HL-LHC).
+
+\bigskip
+
+At DESY, I have been deeply involved in the ITk strips upgrade \cite{ITKstrips}. I successfully developed a fully automated assembly system consisting of mounting and gluing modules with less than 50 $\mu m$ lateral accuracy onto a petal core, the basic unit that forms the ITk end-cap disks, using a robotic gantry as a pick-and-place machine with advanced vision for identification of the sensor fiducial markers. I oversaw the purchasing of the equipment needed to build the station, totaling over $\$200$k, and exchanged with industry providers to test new solutions. I collaborated with other loading sites to develop and standardize the module mounting procedure and adapt a common interface to streamline production. In the process, I gained substantial knowledge of detector development such as building and testing modules, operating industrial robotic assembly, and applying computer vision for pattern finding. I also improved my leadership and management skills by supervising a team of 5 including a PhD student, engineers, and technicians. In February 2020, I successfully presented the first fully loaded petal built at DESY using this automated procedure to the module loading Final Design Review, showing the petal assembly meets the desired specifications with high repeatability and increased capacity to make up for possible production delays.
+
+\bigskip
+
+In addition to detector development, I searched for DM production at the LHC with invisible Higgs boson decays. This search is motivated by the indirect constraints of the Higgs width from visible channels that allow up to 34\% of the decays to come from BSM processes. To that end, I coordinated the search of Higgs decays via vector boson fusion (VBF) production \cite{vbfMET_CONF2020}. I established a collaboration between 3 theorists and the ATLAS analysis team to improve filtering algorithms used in the Monte Carlo generator, which resulted in the reduction of the largest uncertainty in the previous publication by 35\%. This work also enhanced the theoretical accuracy and precision of the simulation, which allowed us to better control the main $Z\left(\nu\nu\right)$+jets background. As analysis contact, I oversaw the work of 10 graduate students, with two successful thesis defenses, and brought a number of improvements to the analysis such as optimizing the event selection and analysis object definition to increase the Higgs boson signal acceptance by 50\% and reduce the background in the signal regions by 31\%. Through these improvements, my team and I significantly increased the sensitivity to this fundamental probe of dark matter by deriving the best exclusion of the Higgs boson decay to invisible particles of 13\%. In addition to developing the full software framework to perform this important analysis, I implemented the analysis
+into the RECAST framework to preserve the analysis workfow as well as to facilitate the re-interpreation of the analysis in terms of new BSM models.
+Over the coming months, if possible, I would like to continue leading the effort of this search to complete a legacy Run-2 paper and contribute to the combination effort of my analysis with other direct and indirect searches for invisible Higgs boson decays.
+
+\bigskip
+
+As there has been no definitive sign of new physics, it is important to fully exploit the LHC by looking in experimentally hard-to-reach locations that have not yet been probed in Run-2. One potential avenue that I would like to explore is the search for long-lived particles with macroscopic displacements from the primary interaction. Similar to the SM that has particles spanning a wide range of lifetimes, long lived particles appear in many BSM theories such as gauge mediated SUSY and neutral naturalness that address the hierarchy problem\cite{alimena2019searching}. While the long-lived particles in the SM, such as b-hadrons, have well-understood experimental signatures, BSM long-lived particles offer unusual signatures that may be rejected by standard reconstruction algorithms. Dedicated methods are needed to ensure that tracking software and triggering are efficient at detecting displaced vertices. In ATLAS, tracks corresponding to these hypothetical particles are reconstructed with a special tracking configuration that only runs on a filtered part of the main physics dataset due to significantly larger computing cost and data size. This cost can be largely reduced by employing novel machine learning techniques to improve pattern recognition while keeping relaxed tracking impact parameter requirements. One example is to explore and extend the current outside-in tracking algorithms to use calorimeter cluster shapes more efficiently. Another is to tag long-lived particles by reconstructing displaced vertices looking at the hit patterns without doing any explicit track reconstruction. Including long-lived particle tracking into the standard reconstruction algorithms will have a considerable impact on searches for long-lived particles that decay within the inner tracking volume. Given my experience in software optimization for maximizing output within strict CPU limits in the HLT and my ambition to explore new machine learning techniques, I want to improve the long-lived particle tracking capability even further to expand the phase space probed by the LHC.
+
+
+
+
+\bigskip
+
+
+Another avenue through which to improve these searches is to exploit the utility of prompt associated objects. I am interested in continuing to explore the Higgs sector through the exotic decay of the Higgs boson to neutral long-lived particles in different production modes, either by leveraging my expertise in VBF production or via associated production with a vector boson. Similar to the Higgs to invisible analysis in the VBF phase space, I can perform a search for long lived particles in the context of a Higgs portal baryogensis model where long-lived particles are produced via the exchange of a SM-like Higgs boson and coupled to the SM. If the decay products of the long-lived particles are too soft, then this will result in large missing transverse momentum. I would like to extend already existing analyses to probe the long-lived particles phase space as well as explore non-standard ideas that capitalize on the ATLAS detector capabilities to develop new search strategies for Run-3 and beyond.
+
+\bigskip
+
+
+I plan to leverage my expertise in BSM searches, detector development, and data acquisition systems to continue searching for new physics and
+perform software R\&D to prepare for the HL-LHC, while assuming more responsibilities within ATLAS. I also would like to join the MATHUSLA effort in designing a new surface level detector for long ultra long-lived particles. I intend to take part in the Snowmass effort to develop strategies for addressing the most important questions in particle physics. I enjoy working with and guiding students to advance their physics training and education, and connecting people with different areas of expertise in order to move a team and a project forward. The work I have done during my DESY fellowship as well as in my PhD have prepared me well to take on new challenges. University of Washington plays a central role in both searches for new physics and software developments, and I would be delighted to work, learn, and grow as part of the group.
+
+
+
+\Urlmuskip=0mu plus 1mu\relax
+{%\small
+\fontsize{11}{14}
+\selectfont
+\bibliography{research_statement}}{}
+\bibliographystyle{unsrt}
+
+\end{document}
