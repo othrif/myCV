@@ -1,5 +1,19 @@
 \begin{thebibliography}{1}
 
+\bibitem{SS3L}
+{ATLAS Collaboration}.
+\newblock {Search for supersymmetry in final states with two same-sign or three
+  leptons and jets using 36 fb$^{-1}$ of $\sqrt{s}=13$ TeV $pp$ collision data
+  with the ATLAS detector}.
+\newblock {\em JHEP}, 09:084, 2017.
+\newblock [Erratum: JHEP 08, 121 (2019)].
+
+\bibitem{proc-TWEPP2015-RoIB}
+O.~Rifki et~al.
+\newblock {The evolution of the region of interest builder for the ATLAS
+  experiment at CERN}.
+\newblock {\em Journal of Instrumentation}, 11(02):C02080, 2016.
+
 \bibitem{ITKstrips}
 {ATLAS Collaboration}.
 \newblock {Technical Design Report for the ATLAS Inner Tracker Strip Detector}.
@@ -11,11 +25,5 @@
   signatures with the ATLAS detector using an integrated luminosity of 139
   fb$^{-1}$}.
 \newblock (ATLAS-CONF-2020-008), Mar 2020.
-
-\bibitem{alimena2019searching}
-{ATLAS Collaboration}.
-\newblock {Searching for long-lived particles beyond the Standard Model at the
-  Large Hadron Collider}.
-\newblock (arXiv:1903.04497), 2019.
 
 \end{thebibliography}
